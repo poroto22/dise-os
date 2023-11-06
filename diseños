@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Nombre - Diseños Creativos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+        }
+        .portfolio img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tu Nombre - Diseños Creativos</h1>
+    </header>
+    <div class="container">
+        <h2>Portafolio</h2>
+        <div class="portfolio">
+            <img src="ruta/a/tu/imagen1.jpg" alt="Descripción de tu diseño 1">
+            <p>Descripción de tu diseño 1.</p>
+            <img src="ruta/a/tu/imagen2.jpg" alt="Descripción de tu diseño 2">
+            <p>Descripción de tu diseño 2.</p>
+            <!-- Agrega más imágenes y descripciones según tus diseños -->
+        </div>
+    </div>
+</body>
+</html>
